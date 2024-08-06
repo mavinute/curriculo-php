@@ -48,14 +48,27 @@ body {
 .content {
   width: 100%;
   padding: 10px 0;
+  font-size: 20px;
 
   display: flex;
   align-items: start;
   justify-content: start;
   flex-direction: column;
+  gap: 10px;
 }
 
 .content .box-contact {
+  padding: 50px 0;
+
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 10px;
+  flex-direction: column;
+}
+
+
+.box-expir {
   padding: 5px 0;
 
   display: flex;
@@ -63,4 +76,12 @@ body {
   justify-content: start;
   gap: 10px;
   flex-direction: column;
+}
+
+.box-exp {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 10px;
 }
